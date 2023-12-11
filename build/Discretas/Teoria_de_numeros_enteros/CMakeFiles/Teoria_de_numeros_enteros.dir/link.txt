@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libTeoria_de_numeros_enteros.so -o libTeoria_de_numeros_enteros.so CMakeFiles/Teoria_de_numeros_enteros.dir/Teoria_de_numeros_enteros.c.o 

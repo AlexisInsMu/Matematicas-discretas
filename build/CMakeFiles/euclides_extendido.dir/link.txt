@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/euclides_extendido.dir/euclides_extendido.c.o -o euclides_extendido 

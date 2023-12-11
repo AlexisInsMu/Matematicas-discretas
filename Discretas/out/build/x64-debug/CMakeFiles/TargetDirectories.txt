@@ -1,0 +1,3 @@
+F:/c_projects/discretas/Discretas/out/build/x64-debug/CMakeFiles/Discretas.dir
+F:/c_projects/discretas/Discretas/out/build/x64-debug/CMakeFiles/edit_cache.dir
+F:/c_projects/discretas/Discretas/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
