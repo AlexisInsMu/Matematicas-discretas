@@ -7,15 +7,6 @@ CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
   CMake that the project does not need compatibility with older versions.
 
 
--- The C compiler identification is GNU 11.4.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
-CMake Error at CMakeLists.txt:4 (add_subdirectory):
-  add_subdirectory given source "Teoria_de_numeros_enteros" which is not an
-  existing directory.
-
-
--- Configuring incomplete, errors occurred!
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/programalexis/Documents/Practicas_Prog/C_practices/discretas/cmake-build-debug

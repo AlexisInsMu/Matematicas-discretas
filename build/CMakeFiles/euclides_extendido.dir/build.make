@@ -73,15 +73,15 @@ CMakeFiles/euclides_extendido.dir/euclides_extendido.c.o: CMakeFiles/euclides_ex
 CMakeFiles/euclides_extendido.dir/euclides_extendido.c.o: /home/programalexis/Documents/Practicas_Prog/C_practices/discretas/euclides_extendido.c
 CMakeFiles/euclides_extendido.dir/euclides_extendido.c.o: CMakeFiles/euclides_extendido.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/euclides_extendido.dir/euclides_extendido.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/euclides_extendido.dir/euclides_extendido.c.o -MF CMakeFiles/euclides_extendido.dir/euclides_extendido.c.o.d -o CMakeFiles/euclides_extendido.dir/euclides_extendido.c.o -c /home/programalexis/Documents/Practicas_Prog/C_practices/discretas/euclides_extendido.c
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/euclides_extendido.dir/euclides_extendido.c.o -MF CMakeFiles/euclides_extendido.dir/euclides_extendido.c.o.d -o CMakeFiles/euclides_extendido.dir/euclides_extendido.c.o -c /home/programalexis/Documents/Practicas_Prog/C_practices/discretas/euclides_extendido.c
 
 CMakeFiles/euclides_extendido.dir/euclides_extendido.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/euclides_extendido.dir/euclides_extendido.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/programalexis/Documents/Practicas_Prog/C_practices/discretas/euclides_extendido.c > CMakeFiles/euclides_extendido.dir/euclides_extendido.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/programalexis/Documents/Practicas_Prog/C_practices/discretas/euclides_extendido.c > CMakeFiles/euclides_extendido.dir/euclides_extendido.c.i
 
 CMakeFiles/euclides_extendido.dir/euclides_extendido.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/euclides_extendido.dir/euclides_extendido.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/programalexis/Documents/Practicas_Prog/C_practices/discretas/euclides_extendido.c -o CMakeFiles/euclides_extendido.dir/euclides_extendido.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/programalexis/Documents/Practicas_Prog/C_practices/discretas/euclides_extendido.c -o CMakeFiles/euclides_extendido.dir/euclides_extendido.c.s
 
 # Object files for target euclides_extendido
 euclides_extendido_OBJECTS = \

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Discretas/Teoria_de_numeros_enteros",
+					"jsonFile" : "directory-Discretas.Teoria_de_numeros_enteros-Debug-7d15092b0fdce02120e8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Discretas/Teoria_de_numeros_enteros",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "Matematicas_discretas",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Teorema_chino_del_residuo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Teorema_chino_del_residuo-Debug-c3d8be5c2a8f2f5a1442.json",
+					"name" : "Teorema_chino_del_residuo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Teoria_de_numeros_enteros::@824ef2c3f5e397b00964",
+					"jsonFile" : "target-Teoria_de_numeros_enteros-Debug-421585e935e030a3c93d.json",
+					"name" : "Teoria_de_numeros_enteros",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/programalexis/Documents/Practicas_Prog/C_practices/discretas/cmake-build-debug",
+		"source" : "/home/programalexis/Documents/Practicas_Prog/C_practices/discretas"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

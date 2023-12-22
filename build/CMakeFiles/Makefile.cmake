@@ -41,6 +41,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Teorema_chino_del_residuo.dir/DependInfo.cmake"
+  "CMakeFiles/Matematicas_discretas.dir/DependInfo.cmake"
   "Discretas/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/DependInfo.cmake"
   )

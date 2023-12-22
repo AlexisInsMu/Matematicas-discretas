@@ -73,15 +73,15 @@ CMakeFiles/Teorema_chino_del_residuo.dir/Teorema_chino_del_residuo.c.o: CMakeFil
 CMakeFiles/Teorema_chino_del_residuo.dir/Teorema_chino_del_residuo.c.o: /home/programalexis/Documents/Practicas_Prog/C_practices/discretas/Teorema_chino_del_residuo.c
 CMakeFiles/Teorema_chino_del_residuo.dir/Teorema_chino_del_residuo.c.o: CMakeFiles/Teorema_chino_del_residuo.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Teorema_chino_del_residuo.dir/Teorema_chino_del_residuo.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Teorema_chino_del_residuo.dir/Teorema_chino_del_residuo.c.o -MF CMakeFiles/Teorema_chino_del_residuo.dir/Teorema_chino_del_residuo.c.o.d -o CMakeFiles/Teorema_chino_del_residuo.dir/Teorema_chino_del_residuo.c.o -c /home/programalexis/Documents/Practicas_Prog/C_practices/discretas/Teorema_chino_del_residuo.c
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Teorema_chino_del_residuo.dir/Teorema_chino_del_residuo.c.o -MF CMakeFiles/Teorema_chino_del_residuo.dir/Teorema_chino_del_residuo.c.o.d -o CMakeFiles/Teorema_chino_del_residuo.dir/Teorema_chino_del_residuo.c.o -c /home/programalexis/Documents/Practicas_Prog/C_practices/discretas/Teorema_chino_del_residuo.c
 
 CMakeFiles/Teorema_chino_del_residuo.dir/Teorema_chino_del_residuo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Teorema_chino_del_residuo.dir/Teorema_chino_del_residuo.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/programalexis/Documents/Practicas_Prog/C_practices/discretas/Teorema_chino_del_residuo.c > CMakeFiles/Teorema_chino_del_residuo.dir/Teorema_chino_del_residuo.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/programalexis/Documents/Practicas_Prog/C_practices/discretas/Teorema_chino_del_residuo.c > CMakeFiles/Teorema_chino_del_residuo.dir/Teorema_chino_del_residuo.c.i
 
 CMakeFiles/Teorema_chino_del_residuo.dir/Teorema_chino_del_residuo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Teorema_chino_del_residuo.dir/Teorema_chino_del_residuo.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/programalexis/Documents/Practicas_Prog/C_practices/discretas/Teorema_chino_del_residuo.c -o CMakeFiles/Teorema_chino_del_residuo.dir/Teorema_chino_del_residuo.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/programalexis/Documents/Practicas_Prog/C_practices/discretas/Teorema_chino_del_residuo.c -o CMakeFiles/Teorema_chino_del_residuo.dir/Teorema_chino_del_residuo.c.s
 
 # Object files for target Teorema_chino_del_residuo
 Teorema_chino_del_residuo_OBJECTS = \

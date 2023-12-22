@@ -3,6 +3,7 @@
     "files.associations": {
         "discretas.h": "c",
         "stdlib.h": "c",
-        "stddef.h": "c"
+        "stddef.h": "c",
+        "teoria_de_numeros_enteros.h": "c"
     }
 }

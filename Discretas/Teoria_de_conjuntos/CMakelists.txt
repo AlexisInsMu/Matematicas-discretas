@@ -1,0 +1,6 @@
+add_library(Teoria_de_conjuntos SHARED 
+        Teoria_de_conjuntos.c 
+        Teoria_de_conjuntos.h)
+
+target_include_directories(Teoria_de_conjuntos PUBLIC
+        ${CMAKE_CURRENT_LIST_DIR})

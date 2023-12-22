@@ -1,4 +1,4 @@
-/home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/CMakeFiles/Teorema_chino_del_residuo.dir
+/home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/CMakeFiles/Matematicas_discretas.dir
 /home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/CMakeFiles/edit_cache.dir
 /home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/CMakeFiles/rebuild_cache.dir
 /home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/Discretas/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir

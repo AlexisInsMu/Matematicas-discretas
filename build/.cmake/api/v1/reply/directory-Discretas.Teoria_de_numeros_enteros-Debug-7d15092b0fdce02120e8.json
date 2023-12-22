@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "Discretas/Teoria_de_numeros_enteros",
+		"source" : "Discretas/Teoria_de_numeros_enteros"
+	}
+}

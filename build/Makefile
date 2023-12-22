@@ -117,17 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Teorema_chino_del_residuo
+# Target rules for targets named Matematicas_discretas
 
 # Build rule for target.
-Teorema_chino_del_residuo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Teorema_chino_del_residuo
-.PHONY : Teorema_chino_del_residuo
+Matematicas_discretas: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Matematicas_discretas
+.PHONY : Matematicas_discretas
 
 # fast build rule for target.
-Teorema_chino_del_residuo/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Teorema_chino_del_residuo.dir/build.make CMakeFiles/Teorema_chino_del_residuo.dir/build
-.PHONY : Teorema_chino_del_residuo/fast
+Matematicas_discretas/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Matematicas_discretas.dir/build.make CMakeFiles/Matematicas_discretas.dir/build
+.PHONY : Matematicas_discretas/fast
 
 #=============================================================================
 # Target rules for targets named Teoria_de_numeros_enteros
@@ -142,29 +142,29 @@ Teoria_de_numeros_enteros/fast:
 	$(MAKE) $(MAKESILENT) -f Discretas/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/build.make Discretas/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/build
 .PHONY : Teoria_de_numeros_enteros/fast
 
-Teorema_chino_del_residuo.o: Teorema_chino_del_residuo.c.o
-.PHONY : Teorema_chino_del_residuo.o
+euclides_extendido.o: euclides_extendido.c.o
+.PHONY : euclides_extendido.o
 
 # target to build an object file
-Teorema_chino_del_residuo.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Teorema_chino_del_residuo.dir/build.make CMakeFiles/Teorema_chino_del_residuo.dir/Teorema_chino_del_residuo.c.o
-.PHONY : Teorema_chino_del_residuo.c.o
+euclides_extendido.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Matematicas_discretas.dir/build.make CMakeFiles/Matematicas_discretas.dir/euclides_extendido.c.o
+.PHONY : euclides_extendido.c.o
 
-Teorema_chino_del_residuo.i: Teorema_chino_del_residuo.c.i
-.PHONY : Teorema_chino_del_residuo.i
+euclides_extendido.i: euclides_extendido.c.i
+.PHONY : euclides_extendido.i
 
 # target to preprocess a source file
-Teorema_chino_del_residuo.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Teorema_chino_del_residuo.dir/build.make CMakeFiles/Teorema_chino_del_residuo.dir/Teorema_chino_del_residuo.c.i
-.PHONY : Teorema_chino_del_residuo.c.i
+euclides_extendido.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Matematicas_discretas.dir/build.make CMakeFiles/Matematicas_discretas.dir/euclides_extendido.c.i
+.PHONY : euclides_extendido.c.i
 
-Teorema_chino_del_residuo.s: Teorema_chino_del_residuo.c.s
-.PHONY : Teorema_chino_del_residuo.s
+euclides_extendido.s: euclides_extendido.c.s
+.PHONY : euclides_extendido.s
 
 # target to generate assembly for a file
-Teorema_chino_del_residuo.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Teorema_chino_del_residuo.dir/build.make CMakeFiles/Teorema_chino_del_residuo.dir/Teorema_chino_del_residuo.c.s
-.PHONY : Teorema_chino_del_residuo.c.s
+euclides_extendido.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Matematicas_discretas.dir/build.make CMakeFiles/Matematicas_discretas.dir/euclides_extendido.c.s
+.PHONY : euclides_extendido.c.s
 
 # Help Target
 help:
@@ -174,11 +174,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Teorema_chino_del_residuo"
+	@echo "... Matematicas_discretas"
 	@echo "... Teoria_de_numeros_enteros"
-	@echo "... Teorema_chino_del_residuo.o"
-	@echo "... Teorema_chino_del_residuo.i"
-	@echo "... Teorema_chino_del_residuo.s"
+	@echo "... euclides_extendido.o"
+	@echo "... euclides_extendido.i"
+	@echo "... euclides_extendido.s"
 .PHONY : help
 
 

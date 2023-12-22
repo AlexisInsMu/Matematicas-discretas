@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/programalexis/Documents/Practicas_Prog/C_practices/disc
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Teorema_chino_del_residuo.dir/all
+all: CMakeFiles/Matematicas_discretas.dir/all
 all: Discretas/Teoria_de_numeros_enteros/all
 .PHONY : all
 
@@ -72,7 +72,7 @@ preinstall: Discretas/Teoria_de_numeros_enteros/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Teorema_chino_del_residuo.dir/clean
+clean: CMakeFiles/Matematicas_discretas.dir/clean
 clean: Discretas/Teoria_de_numeros_enteros/clean
 .PHONY : clean
 
@@ -92,30 +92,30 @@ Discretas/Teoria_de_numeros_enteros/clean: Discretas/Teoria_de_numeros_enteros/C
 .PHONY : Discretas/Teoria_de_numeros_enteros/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Teorema_chino_del_residuo.dir
+# Target rules for target CMakeFiles/Matematicas_discretas.dir
 
 # All Build rule for target.
-CMakeFiles/Teorema_chino_del_residuo.dir/all: Discretas/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Teorema_chino_del_residuo.dir/build.make CMakeFiles/Teorema_chino_del_residuo.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Teorema_chino_del_residuo.dir/build.make CMakeFiles/Teorema_chino_del_residuo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/CMakeFiles --progress-num=1,2 "Built target Teorema_chino_del_residuo"
-.PHONY : CMakeFiles/Teorema_chino_del_residuo.dir/all
+CMakeFiles/Matematicas_discretas.dir/all: Discretas/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Matematicas_discretas.dir/build.make CMakeFiles/Matematicas_discretas.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Matematicas_discretas.dir/build.make CMakeFiles/Matematicas_discretas.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/CMakeFiles --progress-num=1,2 "Built target Matematicas_discretas"
+.PHONY : CMakeFiles/Matematicas_discretas.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Teorema_chino_del_residuo.dir/rule: cmake_check_build_system
+CMakeFiles/Matematicas_discretas.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Teorema_chino_del_residuo.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Matematicas_discretas.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/CMakeFiles 0
-.PHONY : CMakeFiles/Teorema_chino_del_residuo.dir/rule
+.PHONY : CMakeFiles/Matematicas_discretas.dir/rule
 
 # Convenience name for target.
-Teorema_chino_del_residuo: CMakeFiles/Teorema_chino_del_residuo.dir/rule
-.PHONY : Teorema_chino_del_residuo
+Matematicas_discretas: CMakeFiles/Matematicas_discretas.dir/rule
+.PHONY : Matematicas_discretas
 
 # clean rule for target.
-CMakeFiles/Teorema_chino_del_residuo.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Teorema_chino_del_residuo.dir/build.make CMakeFiles/Teorema_chino_del_residuo.dir/clean
-.PHONY : CMakeFiles/Teorema_chino_del_residuo.dir/clean
+CMakeFiles/Matematicas_discretas.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Matematicas_discretas.dir/build.make CMakeFiles/Matematicas_discretas.dir/clean
+.PHONY : CMakeFiles/Matematicas_discretas.dir/clean
 
 #=============================================================================
 # Target rules for target Discretas/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir
