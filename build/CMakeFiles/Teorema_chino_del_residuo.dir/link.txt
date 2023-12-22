@@ -1,1 +1,0 @@
-/usr/bin/gcc -g -rdynamic CMakeFiles/Teorema_chino_del_residuo.dir/Teorema_chino_del_residuo.c.o -o Teorema_chino_del_residuo  -Wl,-rpath,/home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/Discretas/Teoria_de_numeros_enteros Discretas/Teoria_de_numeros_enteros/libTeoria_de_numeros_enteros.so 

@@ -1,9 +1,0 @@
-/home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/CMakeFiles/Matematicas_discretas.dir
-/home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/CMakeFiles/edit_cache.dir
-/home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/CMakeFiles/rebuild_cache.dir
-/home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/lib/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir
-/home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/lib/Teoria_de_numeros_enteros/CMakeFiles/edit_cache.dir
-/home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/lib/Teoria_de_numeros_enteros/CMakeFiles/rebuild_cache.dir
-/home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/lib/common/CMakeFiles/common.dir
-/home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/lib/common/CMakeFiles/edit_cache.dir
-/home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/lib/common/CMakeFiles/rebuild_cache.dir
