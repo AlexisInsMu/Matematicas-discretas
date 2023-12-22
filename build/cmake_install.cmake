@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/Discretas/Teoria_de_numeros_enteros/cmake_install.cmake")
+  include("/home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/lib/Teoria_de_numeros_enteros/cmake_install.cmake")
 
 endif()
 

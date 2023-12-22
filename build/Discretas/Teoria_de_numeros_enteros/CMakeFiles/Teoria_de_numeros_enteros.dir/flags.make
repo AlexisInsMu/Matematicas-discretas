@@ -4,7 +4,7 @@
 # compile C with /usr/bin/gcc
 C_DEFINES = -DTeoria_de_numeros_enteros_EXPORTS
 
-C_INCLUDES = -I/home/programalexis/Documents/Practicas_Prog/C_practices/discretas/Discretas/Teoria_de_numeros_enteros
+C_INCLUDES = -I/home/programalexis/Documents/Practicas_Prog/C_practices/discretas/Discretas/Teoria_de_numeros_enteros -I/home/programalexis/Documents/Practicas_Prog/C_practices/discretas/Discretas/Teoria_de_numeros_enteros/../common}
 
 C_FLAGS = -g -fPIC
 

@@ -1,30 +1,13 @@
 #include "Teoria_de_numeros_enteros.h"
+#include "common.h"
+#include <stdio.h>
 
-int mcd(int A, int B)
-{
-    int residuo;
-    while (B != 0)
-    {
-        residuo = A % B;
-        A = B;
-        B = residuo;
+
+/*mcd: get the maximum common divisor in the euclides form*/
+int mcd(int a, int b){
+    if (a<b){
+        swap(&a,&b);
     }
-    return A;
-}
-
-int inverso_modular(int valor, int modulo){
-    int i;
-    int inverso;
-    for (i = 0; i < modulo; i++)
-    {
-        if((valor * i) % modulo == 1){
-            return i;
-        }
-    }
-    return 0;
-}
-
-int euclides(int a, int b){
     int i, r_residuo;
     for (i = 0 ; b != 0; i++){
         r_residuo = a % b;
@@ -32,6 +15,22 @@ int euclides(int a, int b){
         b = r_residuo;
     }
     return a;
+}
+
+/* inverso_modular: get modular reverse modular of value*/
+int inverso_modular(int value, int modulo){
+    int i;
+    int inverso;
+    if(mcd(value, modulo) == modulo){
+        return -1;
+    }
+    for (i = 0; i < modulo; i++)
+    {
+        if((value * i) % modulo == 1){
+            return i;
+        }
+    }
+    return 0;
 }
 
 int euclides_ext(int a, int b){

@@ -8,9 +8,10 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "/home/programalexis/Documents/Practicas_Prog/C_practices/discretas/CMakeLists.txt"
-  "/home/programalexis/Documents/Practicas_Prog/C_practices/discretas/Discretas/Teoria_de_numeros_enteros/CMakeLists.txt"
   "CMakeFiles/3.24.0/CMakeCCompiler.cmake"
   "CMakeFiles/3.24.0/CMakeSystem.cmake"
+  "/home/programalexis/Documents/Practicas_Prog/C_practices/discretas/lib/Teoria_de_numeros_enteros/CMakeLists.txt"
+  "/home/programalexis/Documents/Practicas_Prog/C_practices/discretas/lib/common/CMakeLists.txt"
   "/usr/local/share/cmake-3.24/Modules/CMakeCInformation.cmake"
   "/usr/local/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake"
   "/usr/local/share/cmake-3.24/Modules/CMakeGenericSystem.cmake"
@@ -36,11 +37,13 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Discretas/Teoria_de_numeros_enteros/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lib/Teoria_de_numeros_enteros/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lib/common/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Matematicas_discretas.dir/DependInfo.cmake"
-  "Discretas/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/DependInfo.cmake"
+  "lib/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/DependInfo.cmake"
+  "lib/common/CMakeFiles/common.dir/DependInfo.cmake"
   )

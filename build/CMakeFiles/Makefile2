@@ -64,38 +64,55 @@ CMAKE_BINARY_DIR = /home/programalexis/Documents/Practicas_Prog/C_practices/disc
 
 # The main recursive "all" target.
 all: CMakeFiles/Matematicas_discretas.dir/all
-all: Discretas/Teoria_de_numeros_enteros/all
+all: lib/Teoria_de_numeros_enteros/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: Discretas/Teoria_de_numeros_enteros/preinstall
+preinstall: lib/Teoria_de_numeros_enteros/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/Matematicas_discretas.dir/clean
-clean: Discretas/Teoria_de_numeros_enteros/clean
+clean: lib/Teoria_de_numeros_enteros/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory Discretas/Teoria_de_numeros_enteros
+# Directory level rules for directory lib/Teoria_de_numeros_enteros
 
 # Recursive "all" directory target.
-Discretas/Teoria_de_numeros_enteros/all: Discretas/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/all
-.PHONY : Discretas/Teoria_de_numeros_enteros/all
+lib/Teoria_de_numeros_enteros/all: lib/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/all
+lib/Teoria_de_numeros_enteros/all: lib/common/all
+.PHONY : lib/Teoria_de_numeros_enteros/all
 
 # Recursive "preinstall" directory target.
-Discretas/Teoria_de_numeros_enteros/preinstall:
-.PHONY : Discretas/Teoria_de_numeros_enteros/preinstall
+lib/Teoria_de_numeros_enteros/preinstall: lib/common/preinstall
+.PHONY : lib/Teoria_de_numeros_enteros/preinstall
 
 # Recursive "clean" directory target.
-Discretas/Teoria_de_numeros_enteros/clean: Discretas/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/clean
-.PHONY : Discretas/Teoria_de_numeros_enteros/clean
+lib/Teoria_de_numeros_enteros/clean: lib/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/clean
+lib/Teoria_de_numeros_enteros/clean: lib/common/clean
+.PHONY : lib/Teoria_de_numeros_enteros/clean
+
+#=============================================================================
+# Directory level rules for directory lib/common
+
+# Recursive "all" directory target.
+lib/common/all: lib/common/CMakeFiles/common.dir/all
+.PHONY : lib/common/all
+
+# Recursive "preinstall" directory target.
+lib/common/preinstall:
+.PHONY : lib/common/preinstall
+
+# Recursive "clean" directory target.
+lib/common/clean: lib/common/CMakeFiles/common.dir/clean
+.PHONY : lib/common/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Matematicas_discretas.dir
 
 # All Build rule for target.
-CMakeFiles/Matematicas_discretas.dir/all: Discretas/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/all
+CMakeFiles/Matematicas_discretas.dir/all: lib/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Matematicas_discretas.dir/build.make CMakeFiles/Matematicas_discretas.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Matematicas_discretas.dir/build.make CMakeFiles/Matematicas_discretas.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/CMakeFiles --progress-num=1,2 "Built target Matematicas_discretas"
@@ -103,7 +120,7 @@ CMakeFiles/Matematicas_discretas.dir/all: Discretas/Teoria_de_numeros_enteros/CM
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Matematicas_discretas.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Matematicas_discretas.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/CMakeFiles 0
 .PHONY : CMakeFiles/Matematicas_discretas.dir/rule
@@ -118,30 +135,56 @@ CMakeFiles/Matematicas_discretas.dir/clean:
 .PHONY : CMakeFiles/Matematicas_discretas.dir/clean
 
 #=============================================================================
-# Target rules for target Discretas/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir
+# Target rules for target lib/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir
 
 # All Build rule for target.
-Discretas/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/all:
-	$(MAKE) $(MAKESILENT) -f Discretas/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/build.make Discretas/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/depend
-	$(MAKE) $(MAKESILENT) -f Discretas/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/build.make Discretas/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/build
+lib/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/all: lib/common/CMakeFiles/common.dir/all
+	$(MAKE) $(MAKESILENT) -f lib/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/build.make lib/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/depend
+	$(MAKE) $(MAKESILENT) -f lib/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/build.make lib/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/CMakeFiles --progress-num=3,4 "Built target Teoria_de_numeros_enteros"
-.PHONY : Discretas/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/all
+.PHONY : lib/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/all
 
 # Build rule for subdir invocation for target.
-Discretas/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Discretas/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/all
+lib/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/CMakeFiles 0
-.PHONY : Discretas/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/rule
+.PHONY : lib/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/rule
 
 # Convenience name for target.
-Teoria_de_numeros_enteros: Discretas/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/rule
+Teoria_de_numeros_enteros: lib/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/rule
 .PHONY : Teoria_de_numeros_enteros
 
 # clean rule for target.
-Discretas/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/clean:
-	$(MAKE) $(MAKESILENT) -f Discretas/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/build.make Discretas/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/clean
-.PHONY : Discretas/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/clean
+lib/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lib/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/build.make lib/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/clean
+.PHONY : lib/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/clean
+
+#=============================================================================
+# Target rules for target lib/common/CMakeFiles/common.dir
+
+# All Build rule for target.
+lib/common/CMakeFiles/common.dir/all:
+	$(MAKE) $(MAKESILENT) -f lib/common/CMakeFiles/common.dir/build.make lib/common/CMakeFiles/common.dir/depend
+	$(MAKE) $(MAKESILENT) -f lib/common/CMakeFiles/common.dir/build.make lib/common/CMakeFiles/common.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/CMakeFiles --progress-num=5,6 "Built target common"
+.PHONY : lib/common/CMakeFiles/common.dir/all
+
+# Build rule for subdir invocation for target.
+lib/common/CMakeFiles/common.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/common/CMakeFiles/common.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/programalexis/Documents/Practicas_Prog/C_practices/discretas/build/CMakeFiles 0
+.PHONY : lib/common/CMakeFiles/common.dir/rule
+
+# Convenience name for target.
+common: lib/common/CMakeFiles/common.dir/rule
+.PHONY : common
+
+# clean rule for target.
+lib/common/CMakeFiles/common.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lib/common/CMakeFiles/common.dir/build.make lib/common/CMakeFiles/common.dir/clean
+.PHONY : lib/common/CMakeFiles/common.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -139,8 +139,21 @@ Teoria_de_numeros_enteros: cmake_check_build_system
 
 # fast build rule for target.
 Teoria_de_numeros_enteros/fast:
-	$(MAKE) $(MAKESILENT) -f Discretas/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/build.make Discretas/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/build
+	$(MAKE) $(MAKESILENT) -f lib/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/build.make lib/Teoria_de_numeros_enteros/CMakeFiles/Teoria_de_numeros_enteros.dir/build
 .PHONY : Teoria_de_numeros_enteros/fast
+
+#=============================================================================
+# Target rules for targets named common
+
+# Build rule for target.
+common: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common
+.PHONY : common
+
+# fast build rule for target.
+common/fast:
+	$(MAKE) $(MAKESILENT) -f lib/common/CMakeFiles/common.dir/build.make lib/common/CMakeFiles/common.dir/build
+.PHONY : common/fast
 
 euclides_extendido.o: euclides_extendido.c.o
 .PHONY : euclides_extendido.o
@@ -176,6 +189,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Matematicas_discretas"
 	@echo "... Teoria_de_numeros_enteros"
+	@echo "... common"
 	@echo "... euclides_extendido.o"
 	@echo "... euclides_extendido.i"
 	@echo "... euclides_extendido.s"
