@@ -1,2 +1,2 @@
 # Matematicas-discretas
-librerias que emulan el temas y teoremas de matematicas discretas
+librerias que emulan los temas y teoremas de matematicas discretas
